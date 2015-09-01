@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+<head>
+    <title>CSS Example: font-family</title>
+
+    
+    <!-- This is where you add CSS styles -->
+    <style>
+        .serif-example {
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+        .sansserif-example {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+        .monospace-example {
+            font-family: "Lucida Console", Courier, monospace;
+        }
+        .cursive-example {
+            font-family: cursive;
+        }
+
+        .fantasy-example {
+            font-family: fantasy;
+        }
+    </style>
+</head>
+
+<body>
+  
+    <p class="serif-example">This is an example of a serif font.</p>
+    <p class="sansserif-example">This is an example of a sans-serif font.</p>
+    <p class="monospace-example">This is an example of a monospace font.</p>
+    <p class="cursive-example">This is an example of a cursive font.</p>
+    <p class="fantasy-example">This is an example of a fantasy font.</p>
+  
+</body>
+</html>
